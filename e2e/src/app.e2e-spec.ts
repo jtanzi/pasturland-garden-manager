@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('project-template-storybook-jest app is running!');
+    expect(page.getTitleText()).toEqual('pasturland-garden-manager app is running!');
   });
 
   afterEach(async () => {

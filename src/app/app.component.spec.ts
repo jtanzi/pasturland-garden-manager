@@ -21,17 +21,17 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'project-template-storybook-jest'`, () => {
+  it(`should have as title 'pasturland-garden-manager'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('project-template-storybook-jest');
+    expect(app.title).toEqual('pasturland-garden-manager');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('project-template-storybook-jest app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('pasturland-garden-manager app is running!');
   });
 
   describe('AppComponent', () => {
